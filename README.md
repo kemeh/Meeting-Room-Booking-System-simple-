@@ -1,4 +1,4 @@
-Offices
+Offices<br />
 Add a new Office 
 There should be an option to be add new offices in the system. The necessary information for each office that should be filled is:
     • Name of the office
