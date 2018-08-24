@@ -1,23 +1,38 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="../../content/js/jquery-3.3.1.min.js"></script>
+        <script src="../../content/js/moment.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+        <script src="../../content/js/bootstrap-datetimepicker.js"></script>
+        <script src="../../content/js/date.format.min.js"></script>
+        <script src="../../content/js/jquery.scheduler.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+        <link rel="stylesheet" href="../../content/css/jquery.scheduler.css">
+        <link rel="stylesheet" href="../../content/css/bootstrap-datetimepicker.min.css">
     </head>
 	
 	<body>
 	<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="navbar navbar-inverse">
 			  <a class="navbar-brand" href="/">HOME</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-				  <li class="nav-item">
-					<a class="nav-link" href="/office">Offices</a>
+				<ul class="nav navbar-nav">
+				  <li>
+					<a href="/office">Offices</a>
 				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="/user">Users</a>
+				  <li>
+					<a href="/user">Users</a>
 				  </li>
 				</ul>
                   <ul class="nav navbar-nav navbar-right">
