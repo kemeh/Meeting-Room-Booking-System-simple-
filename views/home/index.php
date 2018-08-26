@@ -82,7 +82,7 @@
     function getMRs(id = 1) {
         var meetingRooms = [];
         $.ajax({
-            url: "home/some",
+            url: "home/getMeetingRooms",
             method: "post",
             async: false,
             success: function (data) {
