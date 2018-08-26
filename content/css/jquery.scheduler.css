@@ -124,3 +124,25 @@ body {
   background: #ff944d;
   background: linear-gradient(#ff944d, #ff8533);
 }
+
+.row-header {
+  wtext-align: center;
+  height: auto;
+  min-height: 40px;
+  max-height: 40px;
+  background: linear-gradient(#000000, #d9d9d9);
+  border-left: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding: 4px 0px;
+  color: #ffffff;
+}
+
+.row-header-top {
+  wtext-align: center;
+  height: auto;
+  background: linear-gradient(#000000, #d9d9d9);
+  border-left: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding: 4px 0px;
+  color: #ffffff;
+}

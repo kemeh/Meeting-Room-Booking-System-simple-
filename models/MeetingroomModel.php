@@ -2,8 +2,11 @@
 
 class MeetingroomModel extends BaseModel{
 	public function getMeetingRoom($id){
+	    if(is_array($id)){
+	        $id = $id[0];
+        }
         $database = $this->db->getConnection();
-        $stmt = $database->prepare("SELECT * FROM meeting_rooms WHERE mr_id = $id[0]");
+        $stmt = $database->prepare("SELECT * FROM meeting_rooms WHERE mr_id = $id");
         $stmt->execute();
 
         return $stmt->fetch(PDO::FETCH_ASSOC);
@@ -29,10 +32,13 @@ class MeetingroomModel extends BaseModel{
 	}
 	
 	public function editMeetingRoom($id, $mr_name, $mr_capacity, $multimedia, $workstations, $whiteboard, $mr_status, $office_id){
+        if(is_array($id)){
+            $id = $id[0];
+        }
 		$database = $this->db->getConnection();
 		$stmt = $database->prepare("UPDATE meeting_rooms
 									SET mr_name = ?, mr_capacity = ?, multimedia = ?, workstations = ?, whiteboard = ?, mr_status = ?, office_id = ?
-									WHERE mr_id = $id[0]");
+									WHERE mr_id = $id");
 									
 		$stmt->bindParam(1, $mr_name);
 		$stmt->bindParam(2, $mr_capacity);
@@ -46,8 +52,11 @@ class MeetingroomModel extends BaseModel{
 	}
 	
 	public function getAllByOffice($id){
+        if(is_array($id)){
+            $id = $id[0];
+        }
 		$database = $this->db->getConnection();
-		$stmt = $database->prepare("SELECT * FROM meeting_rooms WHERE office_id = $id[0]");
+		$stmt = $database->prepare("SELECT * FROM meeting_rooms WHERE office_id = $id");
 		$stmt->execute();
 		
 		return $stmt->fetchAll(PDO::FETCH_ASSOC);

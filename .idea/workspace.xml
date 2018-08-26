@@ -2,60 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd87c6d1-b562-4156-aaa0-c188b1a27010" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/date.format.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/jquery.scheduler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.az.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.bn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ee.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.hy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ka.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.lv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.nb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.no.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.pt-BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.rs-latin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.rs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.sl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.sw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.ua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content/js/locales/bootstrap-datetimepicker.zh-TW.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/MeetingRoom.iml" afterPath="$PROJECT_DIR$/.idea/MeetingRoom.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/css/jquery.scheduler.css" afterPath="$PROJECT_DIR$/content/css/jquery.scheduler.css" />
+      <change beforePath="$PROJECT_DIR$/content/js/jquery.scheduler.js" afterPath="$PROJECT_DIR$/content/js/jquery.scheduler.js" />
       <change beforePath="$PROJECT_DIR$/controllers/HomeController.php" afterPath="$PROJECT_DIR$/controllers/HomeController.php" />
+      <change beforePath="$PROJECT_DIR$/models/MeetingroomModel.php" afterPath="$PROJECT_DIR$/models/MeetingroomModel.php" />
       <change beforePath="$PROJECT_DIR$/views/home/index.php" afterPath="$PROJECT_DIR$/views/home/index.php" />
-      <change beforePath="$PROJECT_DIR$/views/layout/header.php" afterPath="$PROJECT_DIR$/views/layout/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,31 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jquery.scheduler.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/js/jquery.scheduler.js">
+      <file leaf-file-name="ReservationController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/ReservationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6069">
-              <caret line="357" column="62" lean-forward="true" selection-start-line="357" selection-start-column="62" selection-end-line="357" selection-end-column="62" />
+            <state relative-caret-position="745">
+              <caret line="72" column="15" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReservationModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/ReservationModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1511048842834" expanded="true" signature="207:318" ph="INSERT INTO reservations... " />
+                <marker date="1511048842834" expanded="true" signature="1212:1458" ph="SELECT reser... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="-425">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -111,17 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hour-header</find>
-      <find>row</find>
-      <find>column-</find>
-      <find>row-header</find>
-      <find>printers</find>
-      <find>7</find>
-      <find>creatersv</find>
-      <find>ymodal</find>
-      <find>center</find>
-      <find>meetin gr</find>
-      <find>end-</find>
       <find>transition</find>
       <find>collapse</find>
       <find>input</find>
@@ -132,15 +86,26 @@
       <find>reserva</find>
       <find>14:</find>
       <find>hour</find>
-      <find>console.log</find>
-      <find>hours</find>
-      <find>cell</find>
       <find>reservation-final</find>
       <find>reservation</find>
       <find>timeslotHeight</find>
       <find>sett</find>
       <find>settings</find>
       <find>use24</find>
+      <find>hours</find>
+      <find>item</find>
+      <find>scheduler-row</find>
+      <find>rowheader</find>
+      <find>row-hea</find>
+      <find>header</find>
+      <find>tim</find>
+      <find>mee</find>
+      <find>cell</find>
+      <find>times</find>
+      <find>row-header</find>
+      <find>return</find>
+      <find>console.log</find>
+      <find>printers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,16 +144,19 @@
         <option value="$PROJECT_DIR$/views/office/details.php" />
         <option value="$PROJECT_DIR$/views/user/index.php" />
         <option value="$PROJECT_DIR$/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/views/home/some.php" />
-        <option value="$PROJECT_DIR$/content/css/jquery.scheduler.css" />
         <option value="$PROJECT_DIR$/content/js/datetime-picker.js" />
         <option value="$PROJECT_DIR$/content/css/da.css" />
         <option value="$PROJECT_DIR$/content/js/moment.js" />
         <option value="$PROJECT_DIR$/content/css/bootstrap-datetimepicker.min.css" />
         <option value="$PROJECT_DIR$/content/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/views/layout/header.php" />
+        <option value="$PROJECT_DIR$/content/css/jquery.scheduler.css" />
         <option value="$PROJECT_DIR$/content/js/jquery.scheduler.js" />
+        <option value="$PROJECT_DIR$/api/some.php" />
+        <option value="$PROJECT_DIR$/s.php" />
+        <option value="$PROJECT_DIR$/models/MeetingroomModel.php" />
+        <option value="$PROJECT_DIR$/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/views/home/index.php" />
       </list>
     </option>
@@ -234,46 +202,28 @@
           <expand>
             <path>
               <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
+              <item name="mrb" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="mrb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="mrb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="mrb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrb" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="mrb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -363,12 +313,12 @@
       <workItem from="1510951358531" duration="22077000" />
       <workItem from="1532818773070" duration="27862000" />
       <workItem from="1535070628279" duration="10000" />
-      <workItem from="1535152665057" duration="1408000" />
+      <workItem from="1535152665057" duration="8919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104310000" />
+    <option name="totallyTimeSpent" value="111821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -382,7 +332,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886878" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06281833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20854701" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,6 +345,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06281833" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2091603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886878" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20854701" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -409,38 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/js/jquery.scheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/css/jquery.scheduler.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="5" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="113" lean-forward="false" selection-start-line="67" selection-start-column="113" selection-end-line="67" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -484,42 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="38" column="74" lean-forward="false" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/MeetingroomController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/OfficeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home/some.php" />
-    <entry file="file://$PROJECT_DIR$/controllers/ReservationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="15" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/reservation/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -742,17 +647,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/css/jquery.scheduler.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="97" column="5" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="-5">
+          <caret line="127" column="11" lean-forward="false" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/index.php">
+    <entry file="file://$PROJECT_DIR$/content/js/jquery.scheduler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="214" column="23" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/some.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="929">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/OfficeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MeetingroomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/MeetingroomModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="58" column="85" lean-forward="true" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
+          <folding>
+            <marker date="1535158312423" expanded="true" signature="228:270" ph="SELECT * FRO... meeting_rooms" />
+            <marker date="1535158312423" expanded="true" signature="556:709" ph="INSERT INTO meeting_rooms... " />
+            <marker date="1535158312423" expanded="true" signature="1333:1499" ph="UPDATE meeting_rooms... " />
+            <marker date="1535158312423" expanded="true" signature="1969:2015" ph="SELECT * FRO... meeting_rooms" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -764,10 +722,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/js/jquery.scheduler.js">
+    <entry file="file://$PROJECT_DIR$/models/ReservationModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6069">
-          <caret line="357" column="62" lean-forward="true" selection-start-line="357" selection-start-column="62" selection-end-line="357" selection-end-column="62" />
+        <state relative-caret-position="-326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511048842834" expanded="true" signature="207:318" ph="INSERT INTO reservations... " />
+            <marker date="1511048842834" expanded="true" signature="1212:1458" ph="SELECT reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ReservationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="72" column="15" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                        <h5 class="modal-title">New Reservation</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -36,6 +36,7 @@
 
 
 <script>
+
     var reservations = [];
 
     // Sets dates for example reservations to always be on current day or after
@@ -52,20 +53,22 @@
     date3 = date3.format('Y-m-d');
 
     // Array of example date
-    reservations = [
-        {date: date3, start: '8:00', end: '13:00', row: 0},
-        {date: date1, start: '8:00', end: '14:00', row: 1},
-        {date: date1, start: '7:00', end: '8:25', row: 3},
-        {date: date1, start: '12:00', end: '20:00', row: 5},
-        {date: date2, start: '12:00', end: '18:00', row: 5},
-        {date: date3, start: '8:00', end: '18:00', row: 4}
-    ];
+   // reservations = [
+   //     {date: date3, start: '8:00', end: '13:00', row: 0},
+   //     {date: date1, start: '8:00', end: '14:00', row: 1},
+   //     {date: date1, start: '7:00', end: '8:25', row: 3},
+   //     {date: date1, start: '12:00', end: '20:00', row: 5},
+   //     {date: date2, start: '12:00', end: '18:00', row: 5},
+   //     {date: date3, start: '8:00', end: '18:00', row: 4}
+   // ];
 
     // Array of sample items
-    var printers = ['jQuery', 'Script', 'Net', 'AngularJS', 'ReactJS', 'VueJS'];
+    var meetingRooms = [];
+
+    meetingRooms = getMRs();
 
     // Initialize
-    $("#scheduler").scheduler({items: printers, reservations: reservations, timeslotHeight: 40, timeslotWidth: 50, use24Hour: true, endTime:'23'});
+    $("#scheduler").scheduler({items: meetingRooms, reservations: reservations, timeslotHeight: 40, timeslotWidth: 50, use24Hour: true, endTime:'23'});
 
     // Allows for reservation deletion
     $(document).on('click', ".reservation", function () {
@@ -74,8 +77,24 @@
 
     $(document).on('mouseover', ".reservation", function () {
         console.log('hoverrrrrrrr');
-    })
+    });
 
+    function getMRs(id = 1) {
+        var meetingRooms = [];
+        $.ajax({
+            url: "home/some",
+            method: "post",
+            async: false,
+            success: function (data) {
+                data = JSON.parse(data);
+                meetingRooms = data.map(function (value) {
+                    return value.mr_name;
+                });
+            }
+        });
+
+        return meetingRooms;
+    }
 </script>
 <script type="text/javascript">
 

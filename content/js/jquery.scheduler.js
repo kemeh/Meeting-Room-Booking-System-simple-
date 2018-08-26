@@ -38,9 +38,9 @@
             var header = $("<div></div>").addClass("header");
             var dateHeader = $("<div></div>").addClass("date-header");
 
-            header.append("<div class='prev button'>&#10094</div>")
-            header.append("<div class='date'>January 1 1970</div>")
-            header.append("<div class='next button'>&#10095</div>")
+            header.append("<div class='prev button'>&#10094</div>");
+            header.append("<div class='date'>January 1 1970</div>");
+            header.append("<div class='next button'>&#10095</div>");
             
             return header;
         },
@@ -59,10 +59,10 @@
         rowHeader: function(settings) {
             var rowHeaderContainer = $("<div></div>").addClass("row-header-container");
 
-            rowHeaderContainer.append("<div class='hour-header hour'>MR</div>");
+            rowHeaderContainer.append("<div class='row-header-top'>Meeting Room</div>");
             var i;
             for (i = 0; i < settings.items.length; i++) {
-                var header = $("<div></div>").addClass("row-header cell").text(settings.items[i]);
+                var header = $("<div></div>").addClass("row-header").text(settings.items[i]);
                 rowHeaderContainer.append(header);
             }
           
@@ -76,7 +76,6 @@
             
             var hours = getHours(settings);
 
-            console.log(hours);
             var i;
 
             for (i = 0; i < hours.length; i++) {
@@ -229,7 +228,6 @@
             $(".row-container").off("mousemove.newevent");
             $(document).off("mouseup.newevent");
 
-            console.log(e.data.rsvn);
             $("#myModal").modal();
         }   
     }
@@ -309,11 +307,9 @@
             var i;
             for (i = start; i < end; i++) {
                 hours.push(i + ":00");
-                hours.push(i + ":30");
             }
-            console.log(hours);
         } else {
-            var times = ['12 AM', '12:30 AM', '1 AM', '1:30 AM', '2 AM', '2:30 AM', '3 AM', '3:30 AM', '4 AM', '4:30 AM', '5 AM', '5:30 AM', '6 AM', '6:30 AM', '7 AM', '7:30 AM', '8 AM', '8:30 AM', '9 AM', '9:30 AM', '10 AM', '10:30 AM', '11 AM', '11:30 AM',
+            var times = ['12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM',
                          '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM', '8 PM', '9 PM', '10 PM', '11 PM'];
 
             var start = times.indexOf(settings.startTime),
@@ -356,8 +352,6 @@
                     end = parseInt(rsvns[i].end.split(":")[0]);
                 start = start + parseInt(rsvns[i].start.split(":")[1])/60;
                 end = end + parseInt(rsvns[i].end.split(":")[1])/60;
-                console.log(start);
-                console.log(end);
                     
                 if ((start >= firstHour && start <= lastHour) && (end >= firstHour && end <= lastHour) && (rsvns[i].row <= settings.items.length)) {
                     var $rsvn = $("<div></div>"),
@@ -365,8 +359,6 @@
                         height = settings.timeslotHeight + 1,
                         left = (start - firstHour) * settings.timeslotWidth,
                         width = (end - start) * settings.timeslotWidth + 1;
-
-                    console.log($rsvn);
 
                     $rsvn.addClass("reservation").addClass("reservation-final")
                     .css({
