@@ -93,6 +93,7 @@ body {
 .scheduler-row {
   display: flex;
   flex-direction: row;
+  width: auto;
 }
 
 .cell {
@@ -146,3 +147,5 @@ body {
   padding: 4px 0px;
   color: #ffffff;
 }
+
+

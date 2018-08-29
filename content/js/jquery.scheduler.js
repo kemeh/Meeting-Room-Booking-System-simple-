@@ -90,7 +90,7 @@
                 rowContainer.append(row);
             
                 var j;
-                for (j = 0; j < hours.length; j++) {
+                for (j = 0; j < hours.length * 2; j++) {
                     var timeslot = $("<div></div>").addClass("timeslot cell");
                     row.append(timeslot);
                 }
@@ -153,10 +153,12 @@
                 posY = e.pageY - $(".rsvn-container").offset().top,
                 posX = e.pageX - $(".rsvn-container").offset().left,
                 top = posY - (posY % settings.timeslotHeight),
-                left = posX - (posX % settings.timeslotWidth),
+                left = posX - (posX % (settings.timeslotWidth / 2)),
                 height = settings.timeslotHeight + 1,
-                width = settings.timeslotWidth + 1;
-            
+                width = (settings.timeslotWidth / 2) + 1;
+
+            console.log(posX, e.pageX);
+
             var collisions = $(".reservation").filter(function() {
                     return $(this).position().top == top && $(this).position().left == left;
                 }).not($newRsvn);
@@ -170,7 +172,7 @@
                     height: height,
                     width: width
                 });
-                
+
                 $(".rsvn-container").append($newRsvn);
             }
             
@@ -185,11 +187,11 @@
         resize: function(e) {
             var $newRsvn = e.data.rsvn,
                 settings = e.data.settings,
-                posX = e.pageX - Math.round($('.rsvn-container').offset().left),           
-                remainder = posX % settings.timeslotWidth,
+                posX = e.pageX - Math.round($('.rsvn-container').offset().left),
+                remainder = posX % (settings.timeslotWidth / 2),
                 left = e.data.left,
-                start = posX > left ? left : posX - remainder,
-                end = posX > left ? (remainder == 0 ? posX : posX + settings.timeslotWidth - remainder) : left + settings.timeslotWidth,
+                start = posX > left ? left: posX - remainder,
+                end = posX > left ? (remainder == 0 ? posX : posX + (settings.timeslotWidth / 2) - remainder) : left + (settings.timeslotWidth / 2),
                 width = end - start + 1;
 
             $newRsvn.css({
@@ -286,9 +288,9 @@
         $(".cell")
         .css({
             minHeight: height,
-            minWidth: width,
+            minWidth: width / 2,
             maxHeight: height,
-            maxWidth: width
+            maxWidth: width / 2
         });
         $(".hour")
         .css({
@@ -308,6 +310,7 @@
             for (i = start; i < end; i++) {
                 hours.push(i + ":00");
             }
+
         } else {
             var times = ['12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM',
                          '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM', '8 PM', '9 PM', '10 PM', '11 PM'];
@@ -359,6 +362,8 @@
                         height = settings.timeslotHeight + 1,
                         left = (start - firstHour) * settings.timeslotWidth,
                         width = (end - start) * settings.timeslotWidth + 1;
+
+                    console.log($rsvn);
 
                     $rsvn.addClass("reservation").addClass("reservation-final")
                     .css({
