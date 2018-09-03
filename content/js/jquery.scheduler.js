@@ -157,7 +157,7 @@
                 height = settings.timeslotHeight + 1,
                 width = (settings.timeslotWidth / 2) + 1;
 
-            console.log(posX, e.pageX);
+            //(posX, e.pageX);
 
             var collisions = $(".reservation").filter(function() {
                     return $(this).position().top == top && $(this).position().left == left;
@@ -219,7 +219,8 @@
         
         end: function(e) {
             var $newRsvn = e.data.rsvn;
-            
+            settings = e.data.settings;
+
             if ($newRsvn.hasClass("reservation-error")) {
                 $newRsvn.remove();
             } else {
@@ -229,6 +230,19 @@
             }
             $(".row-container").off("mousemove.newevent");
             $(document).off("mouseup.newevent");
+
+            var posXx = $newRsvn[0].offsetLeft;
+            var hour = posXx / settings.timeslotWidth;
+            var firstHour = parseInt(settings.startTime.split(' ')[0]);
+            var startHour = firstHour + hour;
+            var duration = ($newRsvn[0].offsetWidth - 1) / settings.timeslotWidth;
+            var endHour = startHour + duration;
+            var date = settings.startDate;
+            date = date.format('Y-m-d');
+            $('#start-time').val(date + ' ' + parseInt(startHour) + ':' + (60 * (startHour % 1)).toString().padStart(2 , '0'));
+            $('#end-time').val(date + ' ' + parseInt(endHour) + ':' + (60 * (endHour % 1)).toString().padStart(2 , '0'));
+
+            console.log($newRsvn);
 
             $("#myModal").modal();
         }   
@@ -363,7 +377,7 @@
                         left = (start - firstHour) * settings.timeslotWidth,
                         width = (end - start) * settings.timeslotWidth + 1;
 
-                    console.log($rsvn);
+                    //console.log($rsvn);
 
                     $rsvn.addClass("reservation").addClass("reservation-final")
                     .css({

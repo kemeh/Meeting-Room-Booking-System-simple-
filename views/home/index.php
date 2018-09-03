@@ -50,14 +50,14 @@
     date2 = date2.format('Y-m-d');
     date3 = date3.format('Y-m-d');
     // Array of example date
-    // reservations = [
-    //     {date: date3, start: '8:00', end: '13:00', row: 0},
-    //     {date: date1, start: '8:00', end: '14:00', row: 1},
-    //     {date: date1, start: '7:00', end: '8:25', row: 3},
-    //     {date: date1, start: '12:00', end: '20:00', row: 5},
-    //     {date: date2, start: '12:00', end: '18:00', row: 5},
-    //     {date: date3, start: '8:00', end: '18:00', row: 4}
-    // ];
+     reservations = [
+         {date: date3, start: '8:00', end: '13:20', row: 0},
+         {date: date1, start: '8:00', end: '14:30', row: 1},
+         {date: date1, start: '7:00', end: '8:25', row: 3},
+         {date: date1, start: '12:00', end: '20:00', row: 5},
+         {date: date2, start: '12:00', end: '18:00', row: 5},
+         {date: date3, start: '8:00', end: '18:00', row: 4}
+     ];
     // Array of sample items
     var meetingRooms = [];
     meetingRooms = getMRs();
