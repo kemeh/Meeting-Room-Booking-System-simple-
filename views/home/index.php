@@ -11,7 +11,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form method="post" action="/reservation/create">
+                        <form method="post" action="/reservation/create" id="reservation-create">
                             <div class="form-group">
                                 <label for="start-time">Start Time</label>
                                 <input id="start-time" type="text" class="form-control" name="start" />
@@ -70,6 +70,9 @@
     $(document).on('mouseover', ".reservation", function () {
         console.log('hoverrrrrrrr');
     });
+    var some = $(".row-header-container").find(".row-header");
+    console.log($(some[0]).data().id);
+
     function getMRs(id = 1) {
         var meetingRooms = [];
         $.ajax({
@@ -79,7 +82,10 @@
             success: function (data) {
                 data = JSON.parse(data);
                 meetingRooms = data.map(function (value) {
-                    return value.mr_name;
+                    return {
+                        name: value.mr_name,
+                        id: value.mr_id
+                    }
                 });
             }
         });

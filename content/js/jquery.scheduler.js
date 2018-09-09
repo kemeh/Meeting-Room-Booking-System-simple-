@@ -62,7 +62,8 @@
             rowHeaderContainer.append("<div class='row-header-top'>Meeting Room</div>");
             var i;
             for (i = 0; i < settings.items.length; i++) {
-                var header = $("<div></div>").addClass("row-header").text(settings.items[i]);
+                var header = $("<div></div>").addClass("row-header").text(settings.items[i].name);
+                header.data('id', settings.items[i].id);
                 rowHeaderContainer.append(header);
             }
           
@@ -174,6 +175,7 @@
                 });
 
                 $(".rsvn-container").append($newRsvn);
+                console.log($newRsvn);
             }
             
             if ($newRsvn != undefined) {
@@ -239,10 +241,17 @@
             var endHour = startHour + duration;
             var date = settings.startDate;
             date = date.format('Y-m-d');
-            $('#start-time').val(date + ' ' + parseInt(startHour) + ':' + (60 * (startHour % 1)).toString().padStart(2 , '0'));
-            $('#end-time').val(date + ' ' + parseInt(endHour) + ':' + (60 * (endHour % 1)).toString().padStart(2 , '0'));
+            var startTime = date + ' ' + parseInt(startHour) + ':' + (60 * (startHour % 1)).toString().padStart(2 , '0');
+            var endTime = date + ' ' + parseInt(endHour) + ':' + (60 * (endHour % 1)).toString().padStart(2 , '0');
+            var row = $newRsvn[0].offsetTop/settings.timeslotHeight;
+            var allMrs = $('.row-header-container').find('.row-header');
+            var mrId = $(allMrs[row]).data().id;
 
-            console.log($newRsvn);
+            $('#start-time').val(startTime);
+
+            $('#end-time').val(endTime);
+
+            $('#reservation-create').attr('action', '/reservation/create/' + mrId);
 
             $("#myModal").modal();
         }   
